@@ -5,6 +5,14 @@ Poker engine for Heads-up Omaha at TheAIGames.com
 
 This version of our Poker engine has been set up for local use, for your own convenience. Notice that this engine is not *only* for Heads-up Omaha and can play other versions of poker as well. We will probably host other poker competitions in the future.
 
+To compile (Windows cmd):
+    
+    cd [project folder]
+    dir /b /s *.java>sources.txt
+    md classes
+    javac -d classes @sources.txt
+    del sources.txt
+
 To compile (Linux):
 
     cd [project folder]
