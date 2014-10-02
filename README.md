@@ -16,6 +16,7 @@ To compile (Windows cmd):
 To compile (Linux):
 
     cd [project folder]
+    mkdir bin/
     javac -sourcepath src/ -d bin/ `find src/ -name '*.java' -regex '^[./A-Za-z0-9]*$'`
     
 To run:
